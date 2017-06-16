@@ -45,6 +45,7 @@ break;
 %>
 <center>
 <BR>
+<img src="devops.png" height="45" width="100">
 <BR>
 <H1 style="font-size:250%;"><b>NEIL's Math_MACHINE</b></H1>
 <BR>
@@ -56,7 +57,7 @@ break;
 <option value = "1" <% if (opchar == '1') out.print("selected"); %> >-</option>
 <option value = "2" <% if (opchar == '2') out.print("selected"); %> >*</option>
 <option value = "3" <% if (opchar == '3') out.print("selected"); %> >/</option>
-<option value = "4" <% if (opchar == '4') out.print("selected"); %> >/</option>
+<option value = "4" <% if (opchar == '4') out.print("selected"); %> >%</option>
 </select>
 
 <input type ="text" size="20" name ="operand2" value = <%= op2 %> />
@@ -66,7 +67,7 @@ break;
 <BR>
 <b>Result = <%= result + "" %></b>
 </form>
-
+<BR>
 </body>
 
 </html>
